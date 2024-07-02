@@ -1,3 +1,19 @@
-body {
+@import 'utils';
+@import 'fonts';
+@import './blocks';
+
+* {
+  box-sizing: border-box;
   margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: $primary-100;
+  font-family: Inter, Helvetica, sans-serif;
+  font-weight: 400;
 }
